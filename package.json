@@ -1,0 +1,36 @@
+{
+  "name": "lab09",
+  "version": "1.0.0",
+  "description": "Repository for 401 lab template which will include all of the required configuration files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init:config": "sequelize init:config",
+    "db:create": "sequelize db:create",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunny-lee3/lab09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunny-lee3/lab09/issues"
+  },
+  "homepage": "https://github.com/sunny-lee3/lab09#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
